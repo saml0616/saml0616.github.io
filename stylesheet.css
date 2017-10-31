@@ -219,3 +219,17 @@ img{
 .phone{
 	display:none;
 }
+@media only screen and (max-width: 768px) {
+    section{
+        display: none;
+    }
+    .phone{
+        display: block;
+    }
+    img{
+        display: block;
+        margin:auto;
+        max-width:80%;
+        height: auto;
+    }
+}
