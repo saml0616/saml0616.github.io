@@ -1,3 +1,21 @@
+.header {
+    width: 100%;
+    height: 100px;
+    font-family: Montserrat;
+    font-size: 30px;
+    text-align: left;
+    color: #212121;
+    margin-top: 60px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.tab{
+
+}
+
+
+
+
 /*
 Template Name: Gorgo
 Author: Levent Usta
@@ -184,9 +202,9 @@ pre {
 
 /*===== Titles =====*/
 .site-title {
-    font-family: 'Righteous',helvetica,sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 26px;
-    color: #90D4C5;
+    color: black;
     line-height: 1.5em;
     position: relative;
     z-index: 12;
@@ -197,10 +215,10 @@ pre {
     position: fixed;
 }
 .site-title a,
-.site-title a:visited { color: #90D4C5; }
+/*.site-title a:visited { color: #90D4C5; }*/
 .site-title a:hover,
 .site-title a:active {
-    color: #90D4C5;
+    color: black;/*red;*/
     opacity: 0.8;
 }
 .site-title div { display: inline; }
@@ -586,7 +604,7 @@ pre {
 }
 .thumbnail-title {
     color: #2c2c2c;
-    font-family: 'Righteous',helvetica,sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 21px;
     margin: 0 auto 10px auto;
     text-align: left;
@@ -598,7 +616,7 @@ pre {
 }
 .thumbnail-description {
     color: #2c2c2c;
-    font-family: 'quicksand', Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     margin: 0 auto;
     max-height: 5em;
@@ -1056,6 +1074,46 @@ nav[role="navigation"] {
     .site-title {
         margin-bottom: 120px;
     }
+/*    .site-title .ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    .site-title .li{
+        display: inline;
+    }*/
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+
+
     .site-tagline {
         margin-bottom: 60px;
     }

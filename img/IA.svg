@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="723px" height="391px" viewBox="0 0 723 391" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard">
+            <g id="Home/New-Recording" transform="translate(374.000000, 170.000000)">
+                <rect id="Rectangle" stroke="#ADD1FC" stroke-width="2.5" x="1.25" y="1.25" width="132.5" height="54.5" rx="8"></rect>
+                <text id="New-Recording/-Real-" font-family="SFUIText-Bold, SF UI Text" font-size="15" font-weight="bold" letter-spacing="-0.2850681" fill="#373737">
+                    <tspan x="9.37481433" y="16">New Recording/</tspan>
+                    <tspan x="30.3528179" y="34">Real-Time </tspan>
+                    <tspan x="19.9732471" y="52">transcription</tspan>
+                </text>
+            </g>
+            <path d="M563.5,198.5 L521.5,198.5" id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+            <g id="Cell" transform="translate(576.000000, 172.000000)">
+                <rect id="Rectangle" stroke="#979797" stroke-width="2.5" x="1.25" y="2.25" width="130.5" height="54.5" rx="8"></rect>
+                <text id="Type-something" font-family="SFUIText-Bold, SF UI Text" font-size="15" font-weight="bold" letter-spacing="-0.2850681" fill="#373737">
+                    <tspan x="52.2752143" y="24">Edit </tspan>
+                    <tspan x="17.8451302" y="42">Transcription</tspan>
+                </text>
+            </g>
+            <g id="Cell" transform="translate(374.000000, 8.000000)">
+                <rect id="Rectangle" stroke="#979797" stroke-width="2.5" x="1.25" y="2.25" width="130.5" height="54.5" rx="8"></rect>
+                <text id="Type-something" font-family="SFUIText-Bold, SF UI Text" font-size="15" font-weight="bold" letter-spacing="-0.2850681" fill="#373737">
+                    <tspan x="42.6979337" y="24">Profile</tspan>
+                </text>
+            </g>
+            <path d="M399.5,373 L399.5,237.869604" id="Line-3" stroke="#979797" stroke-width="2" stroke-linecap="square" stroke-dasharray="5"></path>
+            <path d="M599.5,285 L599.5,237.869604" id="Line-3" stroke="#979797" stroke-width="2" stroke-linecap="square" stroke-dasharray="5"></path>
+            <text id="Edit-transcription-Copy" font-family="SFUIText-Bold, SF UI Text" font-size="15" font-weight="bold" letter-spacing="-0.2850681" fill="#373737">
+                <tspan x="408" y="350">Edit transcription</tspan>
+            </text>
+            <text id="Camera" font-family="SFUIText-Bold, SF UI Text" font-size="15" font-weight="bold" letter-spacing="-0.2850681" fill="#373737">
+                <tspan x="408" y="326">Camera</tspan>
+            </text>
+            <text id="Indent/Enter" font-family="SFUIText-Bold, SF UI Text" font-size="15" font-weight="bold" letter-spacing="-0.2850681" fill="#373737">
+                <tspan x="408" y="279">Indent/Enter</tspan>
+            </text>
+            <text id="Draw" font-family="SFUIText-Bold, SF UI Text" font-size="15" font-weight="bold" letter-spacing="-0.2850681" fill="#373737">
+                <tspan x="408" y="302">Draw</tspan>
+            </text>
+            <text id="“Highlight”" font-family="SFUIText-Bold, SF UI Text" font-size="15" font-weight="bold" letter-spacing="-0.2850681" fill="#373737">
+                <tspan x="408" y="255">“Highlight”</tspan>
+            </text>
+            <text id="Share/Export" font-family="SFUIText-Bold, SF UI Text" font-size="15" font-weight="bold" letter-spacing="-0.2850681" fill="#373737">
+                <tspan x="612" y="257">Share/Export</tspan>
+            </text>
+            <g id="Cell" transform="translate(191.000000, 170.000000)">
+                <rect id="Rectangle" stroke="#979797" stroke-width="2.5" x="1.25" y="2.25" width="130.5" height="54.5" rx="8"></rect>
+                <text id="Type-something" font-family="SFUIText-Bold, SF UI Text" font-size="15" font-weight="bold" letter-spacing="-0.2850681" fill="#373737">
+                    <tspan x="48.6863471" y="24">Feed</tspan>
+                </text>
+            </g>
+            <g id="Cell" transform="translate(9.000000, 170.000000)">
+                <rect id="Rectangle" stroke="#979797" stroke-width="2.5" x="1.25" y="2.25" width="130.5" height="54.5" rx="8"></rect>
+                <text id="Type-something" font-family="SFUIText-Bold, SF UI Text" font-size="15" font-weight="bold" letter-spacing="-0.2850681" fill="#373737">
+                    <tspan x="17.8451302" y="24">Transcription</tspan>
+                </text>
+            </g>
+            <path d="M364.5,198.5 L334.894257,198.5" id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+            <path d="M180.5,198.5 L150.894257,198.5" id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+            <path d="M30.5,281.5 L30.5,241" id="Line-3" stroke="#979797" stroke-width="2" stroke-linecap="square" stroke-dasharray="5"></path>
+            <text id="Edit-transcription" font-family="SFUIText-Bold, SF UI Text" font-size="15" font-weight="bold" letter-spacing="-0.2850681" fill="#373737">
+                <tspan x="39" y="274">Edit transcription</tspan>
+            </text>
+            <path d="M206.5,287.002309 L206.5,232.869604" id="Line-3" stroke="#979797" stroke-width="2" stroke-linecap="square" stroke-dasharray="5"></path>
+            <text id="Share/Export" font-family="SFUIText-Bold, SF UI Text" font-size="15" font-weight="bold" letter-spacing="-0.2850681" fill="#373737">
+                <tspan x="219" y="251">Share/Export</tspan>
+            </text>
+            <text id="Search" font-family="SFUIText-Bold, SF UI Text" font-size="15" font-weight="bold" letter-spacing="-0.2850681" fill="#373737">
+                <tspan x="219" y="271">Search</tspan>
+            </text>
+            <text id="Group" font-family="SFUIText-Bold, SF UI Text" font-size="15" font-weight="bold" letter-spacing="-0.2850681" fill="#373737">
+                <tspan x="219" y="291">Group</tspan>
+            </text>
+            <text id="Share/Export" font-family="SFUIText-Bold, SF UI Text" font-size="15" font-weight="bold" letter-spacing="-0.2850681" fill="#373737">
+                <tspan x="39" y="251">Share/Export</tspan>
+            </text>
+            <text id="Save" font-family="SFUIText-Bold, SF UI Text" font-size="15" font-weight="bold" letter-spacing="-0.2850681" fill="#373737">
+                <tspan x="612" y="281">Save</tspan>
+            </text>
+            <text id="View-“Highlights”" font-family="SFUIText-Bold, SF UI Text" font-size="15" font-weight="bold" letter-spacing="-0.2850681" fill="#373737">
+                <tspan x="408" y="373">View “Highlights”</tspan>
+            </text>
+            <path d="M437.5,149.5 L437.5,85.4687576" id="Line-2" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+        </g>
+    </g>
+</svg>

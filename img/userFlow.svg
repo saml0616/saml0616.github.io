@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="751px" height="463px" viewBox="0 0 751 463" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard">
+            <g id="Home/New-Recording" transform="translate(218.000000, 131.000000)">
+                <rect id="Rectangle" stroke="#ADD1FC" stroke-width="2.5" x="1.25" y="1.25" width="132.5" height="54.5" rx="8"></rect>
+                <text id="New-Recording/-Real-" font-family="SFUIText-Bold, SF UI Text" font-size="15" font-weight="bold" letter-spacing="-0.2850681" fill="#373737">
+                    <tspan x="9.37481433" y="16">New Recording/</tspan>
+                    <tspan x="30.3528179" y="34">Real-Time </tspan>
+                    <tspan x="19.9732471" y="52">transcription</tspan>
+                </text>
+            </g>
+            <path d="M407.5,159.5 L365.5,159.5" id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+            <g id="Cell" transform="translate(420.000000, 133.000000)">
+                <rect id="Rectangle" stroke="#979797" stroke-width="2.5" x="1.25" y="2.25" width="130.5" height="54.5" rx="8"></rect>
+                <text id="Type-something" font-family="SFUIText-Bold, SF UI Text" font-size="15" font-weight="bold" letter-spacing="-0.2850681" fill="#373737">
+                    <tspan x="52.2752143" y="24">Edit </tspan>
+                    <tspan x="17.8451302" y="42">Transcription</tspan>
+                </text>
+            </g>
+            <g id="Cell" transform="translate(604.000000, 133.000000)">
+                <rect id="Rectangle" stroke="#979797" stroke-width="2.5" x="1.25" y="2.25" width="130.5" height="54.5" rx="8"></rect>
+                <text id="Type-something" font-family="SFUIText-Bold, SF UI Text" font-size="15" font-weight="bold" letter-spacing="-0.2850681" fill="#373737">
+                    <tspan x="47.9063178" y="24">Send </tspan>
+                    <tspan x="8.14333777" y="42">Transcription(s)</tspan>
+                </text>
+            </g>
+            <g id="Cell" transform="translate(604.000000, 387.000000)">
+                <rect id="Rectangle" stroke="#979797" stroke-width="2.5" x="1.25" y="2.25" width="130.5" height="54.5" rx="8"></rect>
+                <text id="Type-something" font-family="SFUIText-Bold, SF UI Text" font-size="15" font-weight="bold" letter-spacing="-0.2850681" fill="#373737">
+                    <tspan x="40.995341" y="24">Search</tspan>
+                </text>
+            </g>
+            <g id="Cell" transform="translate(420.000000, 6.000000)">
+                <rect id="Rectangle" stroke="#979797" stroke-width="2.5" x="1.25" y="2.25" width="130.5" height="54.5" rx="8"></rect>
+                <text id="Type-something" font-family="SFUIText-Bold, SF UI Text" font-size="15" font-weight="bold" letter-spacing="-0.2850681" fill="#373737">
+                    <tspan x="42.6979337" y="24">Profile</tspan>
+                </text>
+            </g>
+            <g id="Cell" transform="translate(604.000000, 6.000000)">
+                <rect id="Rectangle" stroke="#979797" stroke-width="2.5" x="1.25" y="2.25" width="130.5" height="54.5" rx="8"></rect>
+                <text id="Type-something" font-family="SFUIText-Bold, SF UI Text" font-size="15" font-weight="bold" letter-spacing="-0.2850681" fill="#373737">
+                    <tspan x="35.8971083" y="24">Settings</tspan>
+                </text>
+            </g>
+            <g id="Cell" transform="translate(420.000000, 260.000000)">
+                <rect id="Rectangle" stroke="#979797" stroke-width="2.5" x="1.25" y="2.25" width="130.5" height="54.5" rx="8"></rect>
+                <text id="Type-something" font-family="SFUIText-Bold, SF UI Text" font-size="15" font-weight="bold" letter-spacing="-0.2850681" fill="#373737">
+                    <tspan x="48.6863471" y="24">Feed</tspan>
+                </text>
+            </g>
+            <g id="Cell" transform="translate(5.000000, 179.000000)">
+                <rect id="Rectangle" stroke="#979797" stroke-width="2.5" x="1.25" y="2.25" width="130.5" height="54.5" rx="8"></rect>
+                <text id="Type-something" font-family="SFUIText-Bold, SF UI Text" font-size="15" font-weight="bold" letter-spacing="-0.2850681" fill="#373737">
+                    <tspan x="44.5622356" y="24">Log In</tspan>
+                </text>
+            </g>
+            <g id="Cell" transform="translate(5.000000, 92.000000)">
+                <rect id="Rectangle" stroke="#979797" stroke-width="2.5" x="1.25" y="2.25" width="130.5" height="54.5" rx="8"></rect>
+                <text id="Type-something" font-family="SFUIText-Bold, SF UI Text" font-size="15" font-weight="bold" letter-spacing="-0.2850681" fill="#373737">
+                    <tspan x="38.2264981" y="24">Sign Up</tspan>
+                </text>
+            </g>
+            <g id="Cell" transform="translate(604.000000, 260.000000)">
+                <rect id="Rectangle" stroke="#979797" stroke-width="2.5" x="1.25" y="2.25" width="130.5" height="54.5" rx="8"></rect>
+                <text id="Type-something" font-family="SFUIText-Bold, SF UI Text" font-size="15" font-weight="bold" letter-spacing="-0.2850681" fill="#373737">
+                    <tspan x="17.8451302" y="24">Transcription</tspan>
+                </text>
+            </g>
+            <path d="M593.5,287.5 L563.894257,287.5" id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+            <path id="Line-decoration-1" d="M582.7,284.5 L593.5,287.5 L582.7,290.5" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+            <path d="M604,197 L563.894257,258.5" id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+            <path id="Line-decoration-1" d="M595.587726,204.407675 L604,197 L600.6135,207.685112" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+            <path d="M604,317 L563.894257,378.5" id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square" transform="translate(583.500000, 348.000000) scale(1, -1) translate(-583.500000, -348.000000) "></path>
+            <path id="Line-decoration-1" d="M595.587726,324.407675 L604,317 L600.6135,327.685112" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+            <path d="M593.5,36.5 L563.894257,36.5" id="Line-Copy" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+            <path id="Line-Copy-decoration-1" d="M582.7,33.5 L593.5,36.5 L582.7,39.5" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+            <path d="M593.5,163.5 L563.894257,163.5" id="Line-Copy-2" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+            <path id="Line-Copy-2-decoration-1" d="M582.7,160.5 L593.5,163.5 L582.7,166.5" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+            <path d="M281.927386,201 C277.912124,232.302083 286.93539,255.294271 308.997185,269.976562 C331.058981,284.658854 365.393252,292 412,292" id="Line-3" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+            <path id="Line-3-decoration-1" d="M401.2,295 L412,292 L401.2,289" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+            <path d="M281.927386,30 C277.912124,61.3020833 286.93539,84.2942708 308.997185,98.9765625 C331.058981,113.658854 365.393252,121 412,121" id="Line-3" stroke="#979797" stroke-width="2" stroke-linecap="square" transform="translate(346.500000, 75.500000) scale(1, -1) translate(-346.500000, -75.500000) "></path>
+            <path id="Line-3-decoration-1" d="M401.2,124 L412,121 L401.2,118" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+            <polyline id="Line-2" stroke="#979797" stroke-width="2" stroke-linecap="square" points="144 123 167 123 167 164.534933 167 206 144 206"></polyline>
+            <path d="M167.5,163.5 L206.5,163.5" id="Line-4" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+        </g>
+    </g>
+</svg>
