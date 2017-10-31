@@ -224,5 +224,5 @@ img{
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 /* Styles */
 body{
-	background: url("img/enkSite.jpg");
+	background: url("img/enkSite.jpg")no-repeat center;
 }
