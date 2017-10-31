@@ -220,6 +220,9 @@ img{
 	display:none;
 }
 @media only screen and (max-width: 768px) {
+	.comp{
+		display:none;
+	}
 	.content{
 		display:none;
 	}
