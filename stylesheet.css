@@ -223,19 +223,20 @@ img{
 	.comp{
 		display:none;
 	}
-	.content{
+    .phone{
+        display: block;
+    }
+	/*.content{
 		display:none;
 	}
     section{
         display: none;
     }
-    .phone{
-        display: block;
-    }
+    
     img{
         display: block;
         margin:auto;
         max-width:80%;
         height: auto;
-    }
+    }*/
 }
