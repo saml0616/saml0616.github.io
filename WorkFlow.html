@@ -6,15 +6,15 @@
     <meta name="viewport" content="width=device-width" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Samantha Lee</title>
- 
+
     <link rel="stylesheet" href="stylesheet.css" media="screen" />
-   
+
 
     <link href='http://fonts.googleapis.com/css?family=Righteous&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Quicksand:300,400,700' rel='stylesheet' type='text/css'>
 
-     <script src="scripts/modernizr.js"></script>
-     <script  type="text/javascript" src="jquery-1.8.3.min.js"></script>
+    <script src="scripts/modernizr.js"></script>
+    <script  type="text/javascript" src="jquery-1.8.3.min.js"></script>
     <script src="jquery.elevatezoom.js" type="text/javascript"></script>
 
 </head>
@@ -24,8 +24,8 @@
         <img src="img/enkSite.jpg">
     </div>
     <section>
-    <!-- Navigation Area -->
-    <div class="header importantText">
+        <!-- Navigation Area -->
+        <div class="header importantText">
             <div class="tab"> 
                 <ul>
                     <li><a href="index.html">Samantha Lee</a></li>
@@ -88,24 +88,52 @@
     </section>
     <center><img src="img/BasicLayout.png" style="width: 25vw"></center>
 
-    <div style="padding-top: 100px"></div>
-    <section class="content" style="padding-bottom: 230px">
+    <section class="content" style="padding-bottom: 100px; padding-top: 150px">
         <h1>Assigned Patient List</h1>
         <p>Goal: To display the relevant patient’s for the user in their first page to limit the click count it takes to view patient information.</p>
         <img src="img/PatientCard.png" style="width: 25vw">
         <h3>A Patient Card</h3>
-        <ol>
-            <li class="bull">Based off of the “Today” tab of the App Store App → Compliant to apple guidelines</li>
-            <li class="bull">Location: “Today” tab. First tab in the tab bar.</li>
-            <li class="bull">Users would automatically be on the “Today” tab whenever they enter the app.</li>
+        <p>Clicking the a patient’s card will bring the user the Patient Info screen.</p>
+        <img src="img/Patients.png" style="width: 25vw">
+        <h4>To view more patient's, scroll horizontally</h4>
+    </section>
+
+
+    <section class="content" style="padding-bottom: 230px;"">
+        <h1>Personal To Do List</h1>
+        <p>Goal: Give users the ability to create a to do list for tasks that corresponds to a patient.</p>
+        <!-- <img src="img/AddTask.png" style="width: 25vw"> -->
+        <!-- <h3>Methods to add task:</h3> -->
+        <p>Methods to add task:</p>
+        <ol style="height: 60px;">
+            <li class="bull">[Today] tab. Top right corner.</li>
+            <li class="bull">[Patient Info] screen. Top right corner.</li>
+        </ol>
+        <p>Clicking the a patient’s card will bring the user the Patient Info screen.</p>
+        <img src="img/TodayTab.png" style="width: 25vw">
+        <h4>[Today] Tab</h4><p></p>
+        <img src="img/PatientInfo.png" style="width: 25vw">
+        <h4>[Patient Info] Screen</h4>
+        <ol style="height: 60px;">
+            <li class="bull">When the button is clicked, a modal will appear allowing users to fill in details about the tasks.</li>
+            <li class="bull">The only required field is patient and task, the rest is defaulted to “off”.</li>
+            <ol>
+                <li class="bull">The picker would appear if reminder field is set to “on”.</li>
+            </ol>
+        </ol><div style="padding-bottom: 140px"></div>
+        <img src="img/ToDoListModal.png" style="width: 25vw">
+        <h4>Picker pops up if "Reminder" is turned on</h4>
+        <ol style="height: 60px;">
+            <li class="bull">After the user saves the task, it will appear in red or black under the patient card to indicate its urgency.</li>
+            <ol>
+                <li class="bull">There will also be a bell icon, if the user chooses to be reminded of the task at a later period.</li>
+            </ol>
+            <img src="img/PatientCTScan.png" style="width: 25vw">
+            <h4 style="padding-bottom: 50px">Patient with an urgent corresponding task that also has a reminder set to it.</h4>
+            <li class="bull">The patients list can be organized based on name, bed number, or number of tasks and urgency.</li>
+            <!-- <img src="img/Tasks.png" style="width: 25vw"> -->
         </ol>
     </section>
-    <img src="img/PatientCard.png" style="width: 25vw">
-
-
-
-
-
 
 
 

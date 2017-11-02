@@ -253,10 +253,12 @@ img{
 }
 li{
     /*line-height: 200%;*/
-    position: relative;
+    /*position: relative;*/
     /*padding-bottom: 100px;*/
+    /*white-space: nowrap;*/
+    /*display: block;*/
 }
-h3{
+h4{
     /*padding-top: 50px;*/
     font-family: Montserrat;
     /*font-family: Arvo;*/
@@ -264,7 +266,28 @@ h3{
     font-style: italic;
     font-size: 15px;
     font-weight: normal;
-    margin-top: -10px;
+    /*margin-top: -10px;*/
+    margin-bottom: -20px;
     /*line-height: 1.43;*/
     color: #86929E;
 }
+h3{
+    font-family: Montserrat;
+    text-align: center;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: -10px;
+    margin-bottom: -20px;
+    /*line-height: 1.43;*/
+    color: #86929E;
+}
+/*
+ul {
+    white-space: nowrap;
+    display: block;
+    overflow: visible;
+    position: absolute;
+    top: 100%;
+    visibility: hidden;
+}*/
