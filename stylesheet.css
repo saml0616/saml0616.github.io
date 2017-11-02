@@ -51,10 +51,15 @@ li a:hover:not(.active) {
     font-size: 30px	;
 }
 .intro{
-	display: block;
-	text-align: center;
-	padding: 30px;
-	background: url("img/background.jpg") no-repeat center;
+    display: block;
+    text-align: center;
+    padding: 30px;
+}
+.enkBackground{
+    background: url("img/enkBackground.jpg") no-repeat center;
+}
+.workFlowBackground{
+    background: url("img/WorkFlowBackground.png") no-repeat center;
 }
 .title{
 	font-family: Montserrat;
@@ -201,8 +206,11 @@ p{
 }
 
 img{
-	align-self: center;
+	/*align-self: center;*/
 	width: 100%;
+    display: block;
+    margin: auto;
+    /*text-align: -webkit-center;*/
 	/*text-align:center;*/
 	/*display:block;*/
 	/*align-content: center;*/
@@ -239,4 +247,24 @@ img{
         max-width:80%;
         height: auto;
     }*/
+}
+.bull{
+    list-style-type: circle;    
+}
+li{
+    /*line-height: 200%;*/
+    position: relative;
+    /*padding-bottom: 100px;*/
+}
+h3{
+    /*padding-top: 50px;*/
+    font-family: Montserrat;
+    /*font-family: Arvo;*/
+    text-align: center;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: -10px;
+    /*line-height: 1.43;*/
+    color: #86929E;
 }
