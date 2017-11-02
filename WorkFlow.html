@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M43LPW2');</script>
+<!-- End Google Tag Manager -->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
@@ -20,6 +27,10 @@
 </head>
 
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M43LPW2"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
     <div class="phone">
         <img src="img/enkSite.jpg">
     </div>
@@ -82,7 +93,7 @@
         <h1>Basic layout</h1>
         <ol>
             <li class="bull">Based off of the “Today” tab of the App Store App → Compliant to apple guidelines</li>
-            <li class="bull">Location: “Today” tab. First tab in the tab bar.</li>
+            <li class="bull">Location: “Today” tab. The first tab in the tab bar.</li>
             <li class="bull">Users would automatically be on the “Today” tab whenever they enter the app.</li>
         </ol>
     </section>
@@ -93,7 +104,7 @@
         <p>Goal: To display the relevant patient’s for the user in their first page to limit the click count it takes to view patient information.</p>
         <img src="img/PatientCard.png" style="width: 25vw">
         <h3>A Patient Card</h3>
-        <p>Clicking the a patient’s card will bring the user the Patient Info screen.</p>
+        <p>Clicking a patient card will bring the user the Patient Info screen.</p>
         <img src="img/Patients.png" style="width: 25vw">
         <h4>To view more patient's, scroll horizontally</h4>
     </section>
@@ -101,7 +112,7 @@
 
     <section class="content" style="padding-bottom: 230px;"">
         <h1>Personal To Do List</h1>
-        <p>Goal: Give users the ability to create a to do list for tasks that corresponds to a patient.</p>
+        <p>Goal: Give users the ability to create a to-do list for tasks that correspond to a patient.</p>
         <!-- <img src="img/AddTask.png" style="width: 25vw"> -->
         <!-- <h3>Methods to add task:</h3> -->
         <p>Methods to add task:</p>
@@ -109,11 +120,18 @@
             <li class="bull">[Today] tab. Top right corner.</li>
             <li class="bull">[Patient Info] screen. Top right corner.</li>
         </ol>
-        <p>Clicking the a patient’s card will bring the user the Patient Info screen.</p>
-        <img src="img/TodayTab.png" style="width: 25vw">
-        <h4>[Today] Tab</h4><p></p>
-        <img src="img/PatientInfo.png" style="width: 25vw">
-        <h4>[Patient Info] Screen</h4>
+        <p>Clicking on a patient card will bring the user the Patient Info screen.</p>
+        <div style="float: right">
+            <img src="img/TodayTab.png" style="width: 25vw">
+            <h4>[Today] Tab</h4><p></p>
+        </div>
+
+        <div style="float: right">
+            <img src="img/PatientInfo.png" style="width: 25vw">
+            <h4>[Patient Info] Screen</h4>
+        </div>
+        
+        
         <ol style="height: 60px;">
             <li class="bull">When the button is clicked, a modal will appear allowing users to fill in details about the tasks.</li>
             <li class="bull">The only required field is patient and task, the rest is defaulted to “off”.</li>
@@ -126,11 +144,11 @@
         <ol style="height: 60px;">
             <li class="bull">After the user saves the task, it will appear in red or black under the patient card to indicate its urgency.</li>
             <ol>
-                <li class="bull">There will also be a bell icon, if the user chooses to be reminded of the task at a later period.</li>
+                <li class="bull">There will also be a bell icon if the user chooses to be reminded of the task at a later period.</li>
             </ol>
             <img src="img/PatientCTScan.png" style="width: 25vw">
             <h4 style="padding-bottom: 50px">Patient with an urgent corresponding task that also has a reminder set to it.</h4>
-            <li class="bull">The patients list can be organized based on name, bed number, or number of tasks and urgency.</li>
+            <li class="bull">The patient's list can be organized based on name, bed number, or the number of tasks and urgency.</li>
             <!-- <img src="img/Tasks.png" style="width: 25vw"> -->
         </ol>
     </section>
