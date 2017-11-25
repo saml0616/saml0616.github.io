@@ -84,13 +84,14 @@
     <section class="content" style="margin-bottom: 80px">
         <div style="padding-bottom:-20px">
             <h1 >Basic layout</h1>
+
             <div style="padding-top: 50px">
-                <ol style="float: right; width: 50%">
+                <ol style="float: right; width: 60%; padding-top: 14%">
                     <li class="bull" style="float: left">Based off of the “Today” tab of the App Store App → Compliant to apple guidelines</li>
                     <li class="bull" style="float: left">Location: “Today” tab. The first tab in the tab bar.</li>
                     <li class="bull" style="float: left">Users would automatically be on the “Today” tab whenever they enter the app.</li>
                 </ol>
-                <div style="width: 40%; height: 10px">
+                <div style="width: 35%; height: 10px">
                     <center><img src="img/BasicLayout.png" style=" float: right;"></center>
                 </div>
             </div>
@@ -120,7 +121,31 @@
         <p>Goal: Give users the ability to create a to-do list for tasks that correspond to a patient.</p>
         <img src="img/AddTask.png" style="width: 50px">
         <h3 style="padding-top: 10px">Methods to add task</h3>
-        <p style="margin-bottom: 0px">Methods to add task:</p>
+        
+
+
+        <div style="padding-top: 50px; overflow: hidden;">
+
+            <ol style="float: left;">
+                <p style="margin-bottom: 0px">Methods to add task:</p>
+                <ol>
+                    <li class="bull">[Today] tab. Top right corner.</li>
+                    <li class="bull">[Patient Info] screen. Top right corner.</li>
+                </ol>
+            </ol>
+            <div style="width: 35%; float: right; padding-right: 100px">
+                <center>
+                    <img src="img/TodayTab.png">
+                    <h4>[Today] Tab</h4>
+                    <img src="img/PatientInfo.png">
+                    <h4>[Patient Info] Screen</h4>
+                </center>
+            </div>
+        </div>
+
+<!-- 
+
+
         <div style="overflow: hidden; pad"> 
             <ol>
                 <li class="bull">[Today] tab. Top right corner.</li>
@@ -128,21 +153,29 @@
             </ol>
         </div>
         <p>Clicking on a patient card will bring the user the Patient Info screen.</p>
+
+        <img src="img/TodayTab.png" style="width: 25vw">
+        <h4>[Today] Tab</h4><p></p>
+        <img src="img/PatientInfo.png" style="width: 25vw">
+        <h4>[Patient Info] Screen</h4>
+ -->
+<!-- 
+
         <div style="overflow: hidden;">
             <div style="float: right">
                 <img src="img/TodayTab.png" style="width: 25vw">
                 <h4>[Today] Tab</h4><p></p>
             </div>
-            <!-- <div style="padding: 30px"></div> -->
+            <div style="padding: 30px"></div>
 
             <div style="float: right">
                 <img src="img/PatientInfo.png" style="width: 25vw">
                 <h4>[Patient Info] Screen</h4>
             </div>
         </div>
-        
+         -->
 
-        <div style="padding-top: 50px">
+        <div style="padding-top: 50px; overflow: hidden;">
             <ol style="float: right; width: 60%">
                <li class="bull">When the button is clicked, a modal will appear allowing users to fill in details about the tasks.</li>
                <li class="bull">The only required field is patient and task, the rest is defaulted to “off”.</li>
