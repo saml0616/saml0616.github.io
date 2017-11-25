@@ -30,16 +30,12 @@
         height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!-- End Google Tag Manager (noscript) -->
         <!-- Navigation Area -->
-        <div class="header importantText">
-            <div class="tab"> 
-                <ul>
-                    <li><a href="index.html">Samantha Lee</a></li>
-                    <li style="float:right"><a href="profile.html">About</a></li>
-                    <li style="float:right"><a href="ēnk.html">Work</a></li>
-                </ul>
-            </div>
-        </div>
-    </section>
+      <ul style="list-style-type: none" class="navBar">
+        <li style="float:left"><a href="index.html">Samantha Lee</a></li>
+        <li style="float:right; padding-left: 30px"><a href="BRB.html">Résumé</a></li>
+        <li style="float:right; padding-right: 30px; padding-left: 30px"><a href="profile.html">About</a></li>
+        <li style="float:right; padding-right: 30px; padding-left: 30px"><a href="index.html">Work</a></li> 
+    </ul>    
 
 
     <!-- Intro -->
@@ -85,99 +81,106 @@
         <!-- <div style="margin: 280px"></div> -->
     </section>
 
-    <section class="content">
+    <section class="content" style="margin-bottom: 80px">
         <div style="padding-bottom:-20px">
             <h1 >Basic layout</h1>
-            <div style="padding-bottom: 750px">
-                <ol style="float: right; width: 45%; padding-top: 140px">
+            <div style="padding-top: 50px">
+                <ol style="float: right; width: 50%">
                     <li class="bull" style="float: left">Based off of the “Today” tab of the App Store App → Compliant to apple guidelines</li>
                     <li class="bull" style="float: left">Location: “Today” tab. The first tab in the tab bar.</li>
                     <li class="bull" style="float: left">Users would automatically be on the “Today” tab whenever they enter the app.</li>
                 </ol>
-                <center><img src="img/BasicLayout.png" style="width: 25vw; float: right; padding-top:40px"></center>
+                <div style="width: 40%; height: 10px">
+                    <center><img src="img/BasicLayout.png" style=" float: right;"></center>
+                </div>
             </div>
         </div>
     </section>
     
 
-    <section class="content">
+    <section class="content" style="margin-bottom: 80px">
         <h1>😷 Assigned Patient List</h1>
-        <div style="padding-top: 30px;">
-            <div style="width: 45%; float: left; padding-top: 14%">
+        <div style="padding-top: 50px;">
+            <div style="width: 60%; float: left; padding-top: 14%">
                 <p style="margin:0px">Goal: To display the relevant patient’s for the user in their first page to limit the click count it takes to view patient information.</p>
                 <div style="padding-bottom: 20px">
-                    <img src="img/PatientCard.png" style="float:left; padding-top:20px">
-                    <h3>A Patient Card</h3>
                 </div>
                 <p style="margin:0px">Clicking a patient card will bring the user the Patient Info screen.</p>
             </div>
-            <div style="width: 45%; float: right">
+            <div style="width: 35%; float: right">
                 <img src="img/Patients.png" style="padding-top: 10px">
                 <h4>To view more patient's, scroll horizontally</h4>
             </div>
         </div>
     </section>
 
-
-    <section class="content">
+<section class="content">
         <!-- <i class="em em-pencil" style="font-size: 30; padding-right:20px"; padding-right:20px"></i> -->
         <h1>📝 Personal To Do List</h1>
-        <div>
-            <p>Goal: Give users the ability to create a to-do list for tasks that correspond to a patient.</p>
-            <!-- <img src="img/AddTask.png" style="width: 50px"> -->
-            <!-- <h3 style="padding-top: 10px">Methods to add task</h3> -->
-            <div style="float: right;  width: 45%;">
-                <p style="margin-bottom: 0px; margin-top: 0px">Methods to add task:</p>
-                <!-- <div style="overflow: hidden; pad"> 
-                    <ol>
-                        <li class="bull">[Today] tab. Top right corner.</li>
-                        <li class="bull">[Patient Info] screen. Top right corner.</li>
-                    </ol>
-                </div> -->
-                <!-- <p>Clicking on a patient card will bring the user the Patient Info screen.</p> -->
-                <div style="overflow: hidden">
-                    <div>
-                        <p style="margin: 0px;">1. [Today] tab. Top right corner.<img style="width:80%" src="img/TodayTab.png"></p>
-                        <!-- <h4>[Today] tab. Top right corner.</h4><p></p> -->
-                    </div>
-                    <!-- <div style="padding: 30px"></div> -->
+        <p>Goal: Give users the ability to create a to-do list for tasks that correspond to a patient.</p>
+        <img src="img/AddTask.png" style="width: 50px">
+        <h3 style="padding-top: 10px">Methods to add task</h3>
+        <p style="margin-bottom: 0px">Methods to add task:</p>
+        <div style="overflow: hidden; pad"> 
+            <ol>
+                <li class="bull">[Today] tab. Top right corner.</li>
+                <li class="bull">[Patient Info] screen. Top right corner.</li>
+            </ol>
+        </div>
+        <p>Clicking on a patient card will bring the user the Patient Info screen.</p>
+        <div style="overflow: hidden;">
+            <div style="float: right">
+                <img src="img/TodayTab.png" style="width: 25vw">
+                <h4>[Today] Tab</h4><p></p>
+            </div>
+            <!-- <div style="padding: 30px"></div> -->
 
-                    <div>
-                        <p style="margin: 0px;">2. [Patient Info] screen. Top right corner.<img style="width:80%" src="img/PatientInfo.png"></p>
-                        <!-- <h4>[Patient Info] screen. Top right corner.</h4> -->
-                    </div>
-                </div>
+            <div style="float: right">
+                <img src="img/PatientInfo.png" style="width: 25vw">
+                <h4>[Patient Info] Screen</h4>
+            </div>
+        </div>
+        
 
-
-                <ol style="overflow: auto;">
-                    <li class="bull">When the button is clicked, a modal will appear allowing users to fill in details about the tasks.</li>
-                    <li class="bull">The only required field is patient and task, the rest is defaulted to “off”.</li>
-                    <ol>
-                        <li class="bull">The picker would appear if reminder field is set to “on”.</li>
-                    </ol>
+        <div style="padding-top: 50px">
+            <ol style="float: right; width: 60%">
+               <li class="bull">When the button is clicked, a modal will appear allowing users to fill in details about the tasks.</li>
+               <li class="bull">The only required field is patient and task, the rest is defaulted to “off”.</li>
+               <ol>
+                    <li class="bull">The picker would appear if reminder field is set to “on”.</li>
                 </ol>
+            </ol>
+            <div style="width: 35%; height: 10px">
+                <center><img src="img/ToDoListModal.png" style=" float: right;">
+                <h4>Picker pops up if "Reminder" is turned on</h4></center>
             </div>
-            <!-- <div style="padding-bottom: 140px"></div> -->
-            <div style="width: 45%; float: left">
-                <img src="img/ToDoListModal.png">
-                <h4>Picker pops up if "Reminder" is turned on</h4>
-            </div>
-            <ol style="width: 45%; float: left; overflow: auto;">
-                <li class="bull">After the user saves the task, it will appear in red or black under the patient card to indicate its urgency.</li>
+        </div>
+
+
+
+        <div style="padding-top: 50px">
+            <div style="width: 40%; height: 10px">
+                <center>
+                   <img src="img/Tasks.png" style="width: 25vw">
+                   <h4>Patient list ordered based on number of tasks and urgency</h4>
+               </center>
+           </div>
+           <ol style="float: right; width: 50%">
+              <li class="bull">After the user saves the task, it will appear in red or black under the patient card to indicate its urgency.</li>
                 <ol>
-                    <li class="bull">There will also be a bell icon if the user chooses to be reminded of the task at a later period.</li>
+                   <li class="bull">There will also be a bell icon if the user chooses to be reminded of the task at a later period.</li>
                 </ol>
-                <img src="img/PatientCTScan.png">
-                <h4 style="margin:10px">Patient with an urgent corresponding task that also has a reminder set to it.</h4>
+                <img src="img/PatientCTScan.png" style="width: 25vw">
+                <h4 >Patient with an urgent corresponding task that also has a reminder set to it.</h4>
                 <li class="bull">The patient's list can be organized based on name, bed number, or the number of tasks and urgency.</li>
             </ol>
-            <div style="width: 45%; float: right; overflow: auto;">
-                <img src="img/Tasks.png">
-                <h4>Patient list ordered based on number of tasks and urgency</h4>
-            </div>
-        </section>
+        </div>
+    </section>
 
-        <section class="content">
+
+
+
+        <section class="content" style="padding-bottom: 60px; padding-top:100px">
             <!-- <i class="em em-pushpin" style="font-size: 30px; padding-right:20px"></i> -->
             <h1>📌 Pinned For Later</h1>
             <p>Goal: Allow users to address messages at a later time by pinning and optionally setting a reminder for the message to be alerted again.</p>
@@ -190,9 +193,10 @@
                 </div>
                 <p>Tasks can be saved by sliding the message cell to the left and clicking the “Pin for Later” button</p>
             </ol>
-            <div>
+            <img src="img/PinMessageOr.png" style="width: 40vw">
+           <!--  <div>
                 <div style="float:left">
-                    <img src="img/Message1.png" style="width: 20vw">
+                    <img src="img/PinMessage.png" style="width: 20vw">
                     <h4>Pinning a message</h4>
                 </div>
 
@@ -200,24 +204,56 @@
                     <img src="img/Message2.png" style="width: 20vw">
                     <h4>Alternative Symbole</h4>
                 </div>
-            </div>
-            <img src="img/Pinned.png" style= "width: 35vw">
+            </div> -->
+            <!-- <img src="img/Pinned.png" style= "width: 35vw"> -->
             <p>Messages can be sorted based on their time stamp or alphabetically based on recipient’s name.</p>
-            <img src="img/PinnedFilter.png" style= "width: 35vw">
+            <img src="img/PinnedFilter.png" style= "width: 30%">
         </section>
 
         <section class="content">
-            <h1><i class="em em-bell" style="font-size: 30px; padding-right:20px"></i>🔔 Alert</h1>
+            <h1><i class="em em-bell" style="font-size: 30px; padding-right:20px"></i> Alert</h1>
             <p>Goal: To streamline time sensitive procedures that users needs to be constantly updated.</p>
             <p>Once an alert is created for a time sensitive procedure such as treating a stroke, the alert box will appear for all users participating in the stroke team.</p>
-            <ol style="overflow: hidden;">
-                <li class="bull">Header: Name of patient and his/her current location (doesn’t mean their room number)</li>
-                <li class="bull">Body: Real time updates on patient’s treatment progress</li>
-                <li class="bull">Bottom Timer: Time left to save the patient</li>
-                <li class="bull">Plus Button: Each participating user has the ability to add an update regarding the patient’s treatment</li>
-            </ol>
-            <img src="img/Alerts.png" style= "width: 35vw">
-            <p>Clicking the Alert box will bring the user to a timeline of the procedure. Because these are time sensitive tasks (treating strokes), the procedure has a set process.</p>
+
+            <div style="padding-top: 55px; overflow: hidden;">
+                <ol style="float: right; width: 50%">
+                    <li class="bull">Header: Name of patient and his/her current location (doesn’t mean their room number)</li>
+                    <li class="bull">Body: Real time updates on patient’s treatment progress</li>
+                    <li class="bull">Bottom Timer: Time left to save the patient</li>
+                    <li class="bull">Plus Button: Each participating user has the ability to add an update regarding the patient’s treatment</li>
+                </ol>
+                <div style="width: 40%; height: 10px; float:left">
+                    <center>
+                        <img src="img/Alerts.png">
+                        <p>Clicking the Alert box will bring the user to a timeline of the procedure. Because these are time sensitive tasks (treating strokes), the procedure has a set process.</p>
+                    </center>
+                </div>
+            </div>
+
+            <div style="padding-top: 55px; overflow: hidden;">
+                <div style="width: 40%; height: 10px; float: right">
+                    <center>
+                        <img src="img/Timeline.png">
+                        <h4>Real-time timeline of the procedure</h4>
+                    </center>
+                </div>
+                <ol style="float: left; width: 50%">
+                    <li class="bull">Clicking the Alert box will bring the user to a timeline of the procedure. Because these are time sensitive tasks (treating strokes), the procedure has a set process.</li><p></p>
+                    <ol>
+                        <li class="bull">The tasks are outlined to give the users a visual representation of how the treatment is going along.</li>
+                        <li class="bull">Once a task is done the corresponding text would appear darker and a time stamp would be displayed.</li>
+                        <li class="bull">At the bottom of the timeline, there is a read timestamp and timer which indicates the deadline for the procedure.</li>
+                        <li class="bull">Clicking the plus button on the Alerts page or on the Alerts box will bring up a modal allowing users to make updates to the treatment progress.</li>
+                        <li class="bull">Task is a required field, and Time, and Notes are optional and is set to an appropriate value.</li>
+                        <li class="bull">After clicking on tasks, the user will be brought to this screen which displays the outstanding tasks for the procedure.</li>
+                        <p></p>
+                    </ol>
+                </ol>
+                
+            </div>
+            <img src="img/AlertTimeline.png">
+<!-- 
+
             <ol style="overflow:hidden">
                 <li class="bull">The tasks are outlined to give the users a visual representation of how the treatment is going along.</li>
                 <li class="bull">Once a task is done the corresponding text would appear darker and a time stamp would be displayed.</li>
@@ -231,7 +267,7 @@
                 <li class="bull">After clicking on tasks, the user will be brought to this screen which displays the outstanding tasks for the procedure.</li>
                 <img src="img/AlertsTasks.png" style= "width: 35vw">
                 <h4>Users can pick from the list of outstanding tasks</h4>
-            </ol>
+            </ol> -->
         </section>
 
 
@@ -252,18 +288,18 @@
                         <h4>Alternative Symbole</h4>
                     </div>
                 </div>
-                <img src="img/FrequentContacts.png" style= "width: 35vw">
+                <img src="img/Frequent.png">
                 <p>When the edit button is clicked, users can:</p>
                 <ol style="overflow: hidden;">
                     <li class="bull">Edit the order of the list</li>
                     <li class="bull">Add/delete frequent contacts</li>
-                    <img src="img/FrequentContactsEdit.png" style= "width: 35vw">
                     <li class="bull">User can add a user to his/her Frequent Contacts list based on their name or dynamic role.</li>
                     <li class="bull">If a contact is chosen based off of their dynamic role, the contact itself will change based on who is in that role.</li>
-                    <img src="img/FrequentContactAdd.png" style= "width: 35vw">
-                    <h4>Methods of adding to Frequent Contacts</h4>
                 </ol>
             </ol>
         </section>
+        <div class="navBar" style="margin-top:50px">
+        <p style="font-size: 15px; color: #bec2c9">Samantha Lee | 2017</p>
+    </div>
     </body>
     </html>

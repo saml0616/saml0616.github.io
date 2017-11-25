@@ -229,6 +229,40 @@
         <img src="img/Persona.svg" onerror="this.src='img/Persona.png'">
 
         <h2>Scenario/Storyboard</h2>
+
+        <img id="myImg" src="img/Scenario-1x.png" alt="Scenario/Storyboard">
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="img01">
+          <div id="caption"></div>
+        </div>
+
+        <script>
+        // Get the modal
+        var modal = document.getElementById('myModal');
+
+        // Get the image and insert it inside the modal - use its "alt" text as a caption
+        var img = document.getElementById('myImg');
+        var modalImg = document.getElementById("img01");
+        var captionText = document.getElementById("caption");
+        img.onclick = function(){
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        }
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() { 
+            modal.style.display = "none";
+        }
+        </script>
+
+<!-- 
         <p style="font-size: 15px; text-align: center;">(Hover and scroll to zoom!)</p>
         <img src='img/Scenario-1x.png' name="scenario" id="scenario" data-zoom-image="img/Scenario-2x.png"/>
 
@@ -253,18 +287,50 @@
 
         <script>
             $('#wireframe').elevateZoom({scrollZoom : true});
-        </script>
+        </script> -->
 
 
 
         <h2>Medium Fideltiy Mockup</h2>
+        <img id="myImg1" src="img/Mockup2x.png" alt="Medium Fidelity Mockup">
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="img01">
+          <div id="caption"></div>
+        </div>
+
+        <script>
+        // Get the modal
+        var modal = document.getElementById('myModal');
+
+        // Get the image and insert it inside the modal - use its "alt" text as a caption
+        var img = document.getElementById('myImg1');
+        var modalImg = document.getElementById("img01");
+        var captionText = document.getElementById("caption");
+        img.onclick = function(){
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        }
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() { 
+            modal.style.display = "none";
+        }
+        </script>
+        <!-- 
         <p style="font-size: 15px; text-align: center;">(Hover and scroll to zoom!)</p>
         <img src='img/Mockup1x.png' name="mockup" id="mockup" data-zoom-image="img/Mockup1.5x.png"/>
 
         <script>
             $('#mockup').elevateZoom({scrollZoom : true});
         </script>
-
+ -->
         <center>
             <a href="https://invis.io/57E2PCFZG#/259677512_Feed">
                 <svg width="365px" height="44px" viewBox="0 0 365 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -295,12 +361,45 @@
         <a id="ēnk">
             <h2>Final Prototype</h2>
             <h2 style="font-size: 25px">IOS</h2>
-            <p style="font-size: 15px; text-align: center;">(Hover and scroll to zoom!)</p>
+            <img id="myImg2" src="img/enkPrototype1.5x.png" alt="Medium Fidelity Mockup">
+
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+              <span class="close">&times;</span>
+              <img class="modal-content" id="img01">
+              <div id="caption"></div>
+            </div>
+
+            <script>
+            // Get the modal
+            var modal = document.getElementById('myModal');
+
+            // Get the image and insert it inside the modal - use its "alt" text as a caption
+            var img = document.getElementById('myImg2');
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+            img.onclick = function(){
+                modal.style.display = "block";
+                modalImg.src = this.src;
+                captionText.innerHTML = this.alt;
+            }
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() { 
+                modal.style.display = "none";
+            }
+            </script>
+
+
+            <!-- <p style="font-size: 15px; text-align: center;">(Hover and scroll to zoom!)</p>
             <img src='img/enkPrototype1x.png' name="prototype" id="prototype" data-zoom-image="img/enkPrototype1.5x.png"/>
 
             <script>
                 $('#prototype').elevateZoom({scrollZoom : true});
-            </script>
+            </script> -->
 
             <h2 style="font-size: 25px">watchOS</h2>
             <img src='img/watchOS.png' name="watchPrototype" id="prototype"/>
