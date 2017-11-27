@@ -6,9 +6,11 @@ li a{
 body{
     margin:auto;
     color: #4A4A4A;
+    padding:30px;
 }
 .tiles{
-    width:1100px;
+    max-width:1100px;
+    padding:30px;
     margin:auto
 }
 .navBar{
