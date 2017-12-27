@@ -8,11 +8,32 @@ body{
     color: #4A4A4A;
     padding:30px;
 }
+h1{
+    font-family: Montserrat-Regular;
+    text-align: center;
+    font-size: 40px;
+}
+h2{
+    padding-top: 50px;
+    font-family: Montserrat-Regular;
+    text-align: center;
+    font-size: 28px;
+}
+h3{
+    padding-top: 50px;
+    font-family: Montserrat-Regular;
+    text-align: center;
+    font-size: 22px;
+}
+
 .tiles{
     max-width:1100px;
     padding:30px;
-    margin:auto
+    margin:auto;
 }
+/*p{
+    font-family: Arvo;
+}*/
 .navBar{
     font-family: Montserrat-Regular;
     font-size: 20px;
@@ -46,6 +67,7 @@ body{
     margin-top: 150px;
     text-align: center;
 }
+
 .MainSubTitle{
     padding-top: 80px;
     padding-bottom: 30px;
@@ -58,7 +80,7 @@ body{
     font-family: Arvo;
     font-size: 17px;
     color: #4A4A4A;
-    line-height: 29px;
+    line-height: 30px;
 }
 .footer {
     font-family: Montserrat-Regular;
@@ -67,8 +89,6 @@ body{
     position: fixed;
     bottom: 0;
 }
-
-
 
 /*Image*/
 #myImg {
@@ -153,4 +173,11 @@ body{
     .modal-content {
         width: 100%;
     }
+}
+
+.rightDesc{
+    margin: 5px; width: 45%; float: right;
+}
+.leftDesc{
+    margin: 5px; width: 45%; float: left;
 }
