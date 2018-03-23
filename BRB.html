@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 <head>
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-M43LPW2');</script>
 <!-- End Google Tag Manager -->
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -16,6 +16,11 @@
   gtag('js', new Date());
 
   gtag('config', 'UA-109142099-1');
+
+  $(function(){
+    $("#header").load("header.html"); 
+    $("#footer").load("footer.html"); 
+  });
 </script>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
 <meta charset="utf-8" />
@@ -36,33 +41,48 @@
 </head>
 
 <body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M43LPW2"
-        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-        <!-- End Google Tag Manager (noscript) -->
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M43LPW2"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
         <!-- <div class="phone">
            <img src="img/enkSite.jpg">
-       </div> -->
+         </div> -->
 
 
-       <!-- Nav Bar -->
-       <ul style="list-style-type: none" class="navBar">
-        <li style="float:left"><a href="index.html">Samantha Lee</a></li>
-        <li style="float:right; padding-left: 30px"><a href="img/Resume.pdf">Résumé</a></li>
-        <li style="float:right; padding-right: 30px; padding-left: 30px"><a href="profile.html">About</a></li>
-        <li style="float:right; padding-right: 30px; padding-left: 30px"><a href="index.html">Work</a></li> 
-    </ul>    
+         <!-- Nav Bar -->
+         <div id="header"></div>
 
-    <div class="intro" style="margin-top: 30%">
-        <p class="title" style="margin:auto;">I'm still working on this project!</p>
-        <p class="title" style="margin:auto;">But come back soon!</p>
-    </div>     
+         <ul style="list-style-type: none" class="navBar tiles">
+          <li style="float:left"><a href="index.html">Samantha Lee</a></li>
+          <li style="float:right; padding-left: 30px"><a href="img/Resume.pdf">Résumé</a></li>
+          <li style="float:right; padding-right: 30px; padding-left: 30px"><a href="profile.html">About</a></li>
+          <li style="float:right; padding-right: 30px; padding-left: 30px"><a href="index.html">Work</a></li> 
+        </ul>    
+        
 
-    <!-- Footer -->
-    <div class="footer" style="margin-top:50px">
-        <p style="font-size: 15px; color: #bec2c9">Samantha Lee | 2017</p>
-    </div>
+        <div class="intro" style="margin-top: 30%">
+          <p class="title" style="margin:auto;">I'm still working on this project!</p>
+          <p class="title" style="margin:auto;">But come back soon!</p>
+        </div>     
+        <ul class="navBar tiles" style="">Samantha Leeeee | 2018</ul>
 
 
-</body>
-</html>
+        <footer class="footer" style="margin:auto;">
+          Footer 
+          <ul class="navBar tiles" style="">Samantha Leeeee | 2018</ul>
+        </footer>
+
+        <!-- Footer -->
+        <!-- <div id="footer"></div> -->
+        <!-- <div class="footer" style="margin-top:50px"> -->
+
+          <!-- <p class = "footer" style="   position: fixed; left: 0;bottom: 0;width: 100%;background-color: red;color: white;margin: auto">Samantha Leeeee | 2018</p>
+          <p class = "footer" style="max-width: 1100px; margin: auto; font-size: 15px; color: #bec2c9; margin: auto;">Samantha Leeeee | 2018</p> -->
+
+          <!-- </div> -->
+        <!-- <ul style="list-style-type: none" class="navBar tiles">
+          <p class = "navBar tiles footer" style="font-size: 15px; color: #bec2c9">Samantha Lee | 2018</p>
+        </ul> -->
+      </body>
+      </html>
