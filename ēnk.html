@@ -24,6 +24,7 @@
 <title>Samantha Lee</title>
 
 <link rel="stylesheet" href="stylesheet.css" media="screen" />
+<link rel="stylesheet" href="style.css"/>
 <link href="https://fonts.googleapis.com/css?family=Arvo|Montserrat|Roboto" rel="stylesheet">
 <!-- <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> -->
 
@@ -33,7 +34,7 @@
 <script src="scripts/modernizr.js"></script>
 <script  type="text/javascript" src="jquery-1.8.3.min.js"></script>
 <script src="jquery.elevatezoom.js" type="text/javascript"></script>
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -46,23 +47,32 @@
         </div> -->
         <!-- Navigation Area -->
         <!-- Nav Bar -->
-        <ul style="list-style-type: none" class="navBar">
-            <li style="float:left"><a href="index.html">Samantha Lee</a></li>
-            <li style="float:right; padding-left: 30px"><a href="img/Resume.pdf">Résumé</a></li>
-            <li style="float:right; padding-right: 30px; padding-left: 30px"><a href="profile.html">About</a></li>
-            <li style="float:right; padding-right: 30px; padding-left: 30px"><a href="index.html">Work</a></li> 
-        </ul>    
+   <div class="topnav" id="myTopnav">
+      <a href="index.html" class="active">Samantha Lee</a>
+      <!-- <div style="float: right;"> -->
+          <a href="index.html">Work</a>
+          <a href="profile.html">About</a>
+          <a href="img/Resume.pdf"">Résumé</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+      </div>
 
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+    </script>
 
         <!-- Intro -->
-        <section class="intro enkBackground">
-            <!-- Case Study -->
-   <!--  <section>
-        <div class="heading importantText">
-            <ul class="type"><strong>case study</strong></ul>
-            <ul><i><weak style="color: rgba(33, 33, 33, 0.7); font-size: 25px;">Duration: 2 months</weak></i></ul>
-        </div>
-    </section -->
+        <section class="intro enkBackground"/>
+        
+
 
     <!-- Title -->
     <div class="project">
@@ -76,7 +86,7 @@
                         <g id="View-Survey-Data-Button">
                             <rect id="Rectangle" stroke="#007ABC" x="0.5" y="0.5" width="255" height="43" rx="21.5"></rect>
                             <text id="View-Final-Product" font-family="Arvo" font-size="24" font-weight="normal" fill="#212121">
-                                <tspan x="17" y="28">View Final Product</tspan>
+                                <tspan x="17" y="31">View Final Product</tspan>
                             </text>
                         </g>
                     </g>
@@ -120,13 +130,12 @@
             </div>
         </div>
     </div>
-<!--     <img style="width:15vw" src="img/ēnk in iPhone.gif"> -->
+    <img style="width:15vw" src="img/ēnk in iPhone.gif">
     <!-- <div style="position: relative; left: 0; top:0; width: 100%">
         <img style="width:15vw; position: absolute; padding-left: 50%; padding-right: 50% ;z-index: 1" src="img/ēnk.gif">
         <img style="width:19vw; top:0; left:0; position: relative; z-index: 0" src="img/iPhone.png">
     </div> -->
     
-   
     <h1>The Problem</h1>
     <p>For students, lecture attendance is only beneficial only if he/she is able to absorb the information as it is being taught. However, I noticed that for faster-paced classes, I tend to fall behind and not fully comprehend the topic even while being taught the information. The process of taking notes slows me down to the point that I am unable to write and process the information as fast as the professor is lecturing it. Note taking during lectures is undoubtedly a great tool for learning. However, should it be at the expense of comprehension?</p>
 </section>

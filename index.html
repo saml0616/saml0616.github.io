@@ -24,14 +24,15 @@
 <title>Samantha Lee</title>
 
 <link rel="stylesheet" href="style.css" media="screen" />
-<link href="https://fonts.googleapis.com/css?family=Arvo|Montserrat|Quicksand:300,400,700|Righteous&amp;subset=latin-ext" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Arvo|Montserrat" rel="stylesheet">
+
+<link href='http://fonts.googleapis.com/css?family=Righteous&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Quicksand:300,400,700' rel='stylesheet' type='text/css'>
 
 <script src="scripts/modernizr.js"></script>
 <script  type="text/javascript" src="jquery-1.8.3.min.js"></script>
 <script src="jquery.elevatezoom.js" type="text/javascript"></script>
-<style>
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
-</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -45,17 +46,34 @@
 
 
        <!-- Nav Bar -->
-       <ul style="list-style-type: none" class="navBar tiles">
-        <li style="float:left"><a href="index.html">Samantha Lee</a></li>
-        <li style="float:right; padding-left: 30px"><a href="img/Resume.pdf">Résumé</a></li>
-        <li style="float:right; padding-right: 30px; padding-left: 30px"><a href="profile.html">About</a></li>
-        <li style="float:right; padding-right: 30px; padding-left: 30px"><a href="index.html">Work</a></li> 
-    </ul>    
+  
+    <div class="topnav" id="myTopnav">
+      <a href="index.html" class="active">Samantha Lee</a>
+      <!-- <div style="float: right;"> -->
+          <a href="index.html">Work</a>
+          <a href="profile.html">About</a>
+          <a href="img/Resume.pdf"">Résumé</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+      </div>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+    </script>
+
 
     <div class="intro">
         <p class="title">Hello! My name is Samantha!</p>
         <p class="subtitle" style="margin-top:-20px; margin-bottom: 50px">UX Designer & Coder</p>
-        <p class="subtitle" style="margin-top:-20px; margin-bottom: 50px">Currently a UX Intern @ Mobile Heartbeat and an undergraduate studying CS @ Brandeis!</p>
+        <p class="subtitle" style="margin-top:-20px; margin-bottom: 50px">Currently a UX Design Lead</p>
         <!-- Icons -->
         <div">
         <!-- Email -->
@@ -97,7 +115,7 @@
                         <g id="Desktop-HD" transform="translate(-749.000000, -304.000000)">
                             <g id="Resume" transform="translate(749.000000, 304.000000)">
                                 <rect id="Rectangle-3" fill="#E6F4FD" x="0" y="0" width="138" height="55" rx="27.5"></rect>
-                                <text id="RÉSUMÉ" font-family="Montserrat-Regular, Montserrat" font-size="20" font-weight="normal" fill="#4A4A4A">
+                                <text id="RÉSUMÉ" font-family="Montserrat" font-size="20" font-weight="normal" fill="#4A4A4A">
                                     <tspan x="26" y="35">RÉSUMÉ</tspan>
                                 </text>
                             </g>
@@ -111,10 +129,10 @@
     <p class="MainSubTitle">WORK</p>
     <div class="tiles">
         <div style="display: flex; flex-wrap: wrap; justify-content: center;">
-            <a href="Instagram.html"><img src="img/InstagramTile.png" style="zoom:90%; margin:auto; padding: 0px 30px 30px 30px"></a>
             <a href="ēnk.html"><img src="img/enkCard.png" style="zoom:90%; margin:auto; padding: 0px 30px 30px 30px;"></a>
             <a href="img/SpotifyWithFriends.pdf"><img src="img/Spotify.png" style="zoom:90%; margin:auto; padding: 0px 30px 30px 30px"></a>
-            <a href="WorkFlow2.html"><img src="img/WorkflowCard.png" style="zoom:90%; margin:auto; padding: 0px 30px 30px 30px"></a>                                                                                                                    
+            <a href="WorkFlow2.html"><img src="img/WorkflowCard.png" style="zoom:90%; margin:auto; padding: 0px 30px 30px 30px"></a>
+            <a href="Instagram.html"><img src="img/InstagramTile.png" style="zoom:90%; margin:auto; padding: 0px 30px 30px 30px"></a>
             <a href="BRB.html"><img src="img/SkipCard.png" style="zoom:90%; margin:auto;padding: 0px 30px 30px 30px;"></a>
             <a href="profile.html"><img src="img/AboutMeCard.png" style="zoom:90%; margin:auto; padding: 0px 30px 30px 30px"></a>
         </div>
